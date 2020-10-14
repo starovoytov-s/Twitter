@@ -13,6 +13,11 @@
 		7BD55AD12537460D000A6C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD55AD02537460D000A6C96 /* Assets.xcassets */; };
 		7BD55AD42537460D000A6C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD55AD22537460D000A6C96 /* LaunchScreen.storyboard */; };
 		7BD55AE525374931000A6C96 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AE425374931000A6C96 /* MainTabController.swift */; };
+		7BD55AE825374BF5000A6C96 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AE725374BF5000A6C96 /* FeedController.swift */; };
+		7BD55AEB25374C6A000A6C96 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AEA25374C6A000A6C96 /* ExploreController.swift */; };
+		7BD55AEE25374C84000A6C96 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AED25374C84000A6C96 /* NotificationsController.swift */; };
+		7BD55AF125374C93000A6C96 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AF025374C93000A6C96 /* ConversationController.swift */; };
+		7BD55AF425375791000A6C96 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AF325375791000A6C96 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		7BD55AD32537460D000A6C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BD55AD52537460D000A6C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BD55AE425374931000A6C96 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		7BD55AE725374BF5000A6C96 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		7BD55AEA25374C6A000A6C96 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		7BD55AED25374C84000A6C96 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		7BD55AF025374C93000A6C96 /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
+		7BD55AF325375791000A6C96 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 		7BD55ADC2537476D000A6C96 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				7BD55AF325375791000A6C96 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -90,6 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				7BD55AE425374931000A6C96 /* MainTabController.swift */,
+				7BD55AE725374BF5000A6C96 /* FeedController.swift */,
+				7BD55AEA25374C6A000A6C96 /* ExploreController.swift */,
+				7BD55AED25374C84000A6C96 /* NotificationsController.swift */,
+				7BD55AF025374C93000A6C96 /* ConversationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,9 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD55AEE25374C84000A6C96 /* NotificationsController.swift in Sources */,
 				7BD55AC82537460C000A6C96 /* AppDelegate.swift in Sources */,
+				7BD55AEB25374C6A000A6C96 /* ExploreController.swift in Sources */,
+				7BD55AF425375791000A6C96 /* Extensions.swift in Sources */,
 				7BD55ACA2537460C000A6C96 /* SceneDelegate.swift in Sources */,
 				7BD55AE525374931000A6C96 /* MainTabController.swift in Sources */,
+				7BD55AF125374C93000A6C96 /* ConversationController.swift in Sources */,
+				7BD55AE825374BF5000A6C96 /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
