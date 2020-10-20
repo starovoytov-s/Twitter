@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B58FF38253F0D7600FCBCF2 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58FF37253F0D7600FCBCF2 /* UserCell.swift */; };
 		7B5ECD742538A5D0007A4A77 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5ECD732538A5D0007A4A77 /* LoginController.swift */; };
 		7B5ECD772538A665007A4A77 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5ECD762538A665007A4A77 /* RegistrationController.swift */; };
 		7B5ECD7A2538B049007A4A77 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5ECD792538B049007A4A77 /* Utilities.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		3B4CCB777A657B33B55F2481 /* Pods-Twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.release.xcconfig"; path = "Target Support Files/Pods-Twitter/Pods-Twitter.release.xcconfig"; sourceTree = "<group>"; };
 		49B2AC1E21B51818BCEBF944 /* Pods-Twitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.debug.xcconfig"; path = "Target Support Files/Pods-Twitter/Pods-Twitter.debug.xcconfig"; sourceTree = "<group>"; };
+		7B58FF37253F0D7600FCBCF2 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		7B5ECD732538A5D0007A4A77 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		7B5ECD762538A665007A4A77 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		7B5ECD792538B049007A4A77 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				7BA08766253DE858009049A5 /* ProfileHeader.swift */,
 				7BA08769253DF773009049A5 /* ProfileFilterView.swift */,
 				7BA0876C253DF9B4009049A5 /* ProfileFilterCell.swift */,
+				7B58FF37253F0D7600FCBCF2 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				7BB0D67B253C611000E21414 /* CaptionTextView.swift in Sources */,
 				7BA0876D253DF9B4009049A5 /* ProfileFilterCell.swift in Sources */,
 				7BD55AC82537460C000A6C96 /* AppDelegate.swift in Sources */,
+				7B58FF38253F0D7600FCBCF2 /* UserCell.swift in Sources */,
 				7B5ECD7A2538B049007A4A77 /* Utilities.swift in Sources */,
 				7BD55AEB25374C6A000A6C96 /* ExploreController.swift in Sources */,
 				7BD55AF425375791000A6C96 /* Extensions.swift in Sources */,
