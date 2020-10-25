@@ -16,11 +16,15 @@
 		7B82A30225403FB7006A0214 /* TweetHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82A30125403FB7006A0214 /* TweetHeader.swift */; };
 		7B82A3052540A1F6006A0214 /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82A3042540A1F6006A0214 /* UploadTweetViewModel.swift */; };
 		7B878C732539A969009A250A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B878C722539A969009A250A /* GoogleService-Info.plist */; };
+		7B9E850625436036009C96A1 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E850525436036009C96A1 /* Notification.swift */; };
+		7B9E850925436C5F009C96A1 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E850825436C5F009C96A1 /* NotificationService.swift */; };
 		7BA08763253DA252009049A5 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA08762253DA252009049A5 /* ProfileController.swift */; };
 		7BA08767253DE858009049A5 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA08766253DE858009049A5 /* ProfileHeader.swift */; };
 		7BA0876A253DF773009049A5 /* ProfileFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA08769253DF773009049A5 /* ProfileFilterView.swift */; };
 		7BA0876D253DF9B4009049A5 /* ProfileFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0876C253DF9B4009049A5 /* ProfileFilterCell.swift */; };
 		7BA08770253E04D8009049A5 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0876F253E04D8009049A5 /* ProfileHeaderViewModel.swift */; };
+		7BAF71E52544B78400B5A23A /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF71E42544B78400B5A23A /* NotificationCell.swift */; };
+		7BAF71E82544C6EB00B5A23A /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF71E72544C6EB00B5A23A /* NotificationViewModel.swift */; };
 		7BB02F0B2541C50400BDB3E8 /* ActionSheetLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB02F0A2541C50400BDB3E8 /* ActionSheetLauncher.swift */; };
 		7BB02F0E2541D69E00BDB3E8 /* ActionSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB02F0D2541D69E00BDB3E8 /* ActionSheetCell.swift */; };
 		7BB02F112541EF1600BDB3E8 /* ActionSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB02F102541EF1600BDB3E8 /* ActionSheetViewModel.swift */; };
@@ -59,11 +63,15 @@
 		7B82A30125403FB7006A0214 /* TweetHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetHeader.swift; sourceTree = "<group>"; };
 		7B82A3042540A1F6006A0214 /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 		7B878C722539A969009A250A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B9E850525436036009C96A1 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		7B9E850825436C5F009C96A1 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		7BA08762253DA252009049A5 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		7BA08766253DE858009049A5 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		7BA08769253DF773009049A5 /* ProfileFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFilterView.swift; sourceTree = "<group>"; };
 		7BA0876C253DF9B4009049A5 /* ProfileFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFilterCell.swift; sourceTree = "<group>"; };
 		7BA0876F253E04D8009049A5 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
+		7BAF71E42544B78400B5A23A /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		7BAF71E72544C6EB00B5A23A /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		7BB02F0A2541C50400BDB3E8 /* ActionSheetLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetLauncher.swift; sourceTree = "<group>"; };
 		7BB02F0D2541D69E00BDB3E8 /* ActionSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetCell.swift; sourceTree = "<group>"; };
 		7BB02F102541EF1600BDB3E8 /* ActionSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetViewModel.swift; sourceTree = "<group>"; };
@@ -177,6 +185,7 @@
 				7BE85BB02539EE53008E0BB0 /* AuthService.swift */,
 				7BE85BB3253A2F1C008E0BB0 /* UserService.swift */,
 				7BB0D67D253C6B5600E21414 /* TweetService.swift */,
+				7B9E850825436C5F009C96A1 /* NotificationService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -204,6 +213,7 @@
 				7BA0876F253E04D8009049A5 /* ProfileHeaderViewModel.swift */,
 				7B82A3042540A1F6006A0214 /* UploadTweetViewModel.swift */,
 				7BB02F102541EF1600BDB3E8 /* ActionSheetViewModel.swift */,
+				7BAF71E72544C6EB00B5A23A /* NotificationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -218,6 +228,7 @@
 				7BA0876C253DF9B4009049A5 /* ProfileFilterCell.swift */,
 				7BB02F0D2541D69E00BDB3E8 /* ActionSheetCell.swift */,
 				7B58FF37253F0D7600FCBCF2 /* UserCell.swift */,
+				7BAF71E42544B78400B5A23A /* NotificationCell.swift */,
 				7B82A30125403FB7006A0214 /* TweetHeader.swift */,
 			);
 			path = View;
@@ -228,6 +239,7 @@
 			children = (
 				7BE85BB6253A341C008E0BB0 /* User.swift */,
 				7BB0D680253C9F2200E21414 /* Tweet.swift */,
+				7B9E850525436036009C96A1 /* Notification.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -364,6 +376,7 @@
 				7B5ECD7A2538B049007A4A77 /* Utilities.swift in Sources */,
 				7BB02F0E2541D69E00BDB3E8 /* ActionSheetCell.swift in Sources */,
 				7BD55AEB25374C6A000A6C96 /* ExploreController.swift in Sources */,
+				7BAF71E82544C6EB00B5A23A /* NotificationViewModel.swift in Sources */,
 				7BD55AF425375791000A6C96 /* Extensions.swift in Sources */,
 				7B82A2FF25403C2D006A0214 /* TweetController.swift in Sources */,
 				7BA08763253DA252009049A5 /* ProfileController.swift in Sources */,
@@ -371,16 +384,19 @@
 				7BA08767253DE858009049A5 /* ProfileHeader.swift in Sources */,
 				7BB0D684253CA92B00E21414 /* TweetCell.swift in Sources */,
 				7B5ECD742538A5D0007A4A77 /* LoginController.swift in Sources */,
+				7B9E850625436036009C96A1 /* Notification.swift in Sources */,
 				7BE85BB12539EE53008E0BB0 /* AuthService.swift in Sources */,
 				7BA08770253E04D8009049A5 /* ProfileHeaderViewModel.swift in Sources */,
 				7BB0D678253B64F600E21414 /* UploadTweetController.swift in Sources */,
 				7BE85BB7253A341C008E0BB0 /* User.swift in Sources */,
 				7BD55ACA2537460C000A6C96 /* SceneDelegate.swift in Sources */,
 				7BD55AE525374931000A6C96 /* MainTabController.swift in Sources */,
+				7B9E850925436C5F009C96A1 /* NotificationService.swift in Sources */,
 				7BD55AF125374C93000A6C96 /* ConversationController.swift in Sources */,
 				7B82A30225403FB7006A0214 /* TweetHeader.swift in Sources */,
 				7BB0D687253CD6AF00E21414 /* TweetViewModel.swift in Sources */,
 				7BB02F112541EF1600BDB3E8 /* ActionSheetViewModel.swift in Sources */,
+				7BAF71E52544B78400B5A23A /* NotificationCell.swift in Sources */,
 				7B5ECD772538A665007A4A77 /* RegistrationController.swift in Sources */,
 				7BD55AE825374BF5000A6C96 /* FeedController.swift in Sources */,
 				7BA0876A253DF773009049A5 /* ProfileFilterView.swift in Sources */,
