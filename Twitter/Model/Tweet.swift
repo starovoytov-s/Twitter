@@ -15,6 +15,9 @@ struct Tweet {
     let retweetCount: Int
     var user: User
     var didLike = false
+    var replyingTo: String?
+    
+    var isReply: Bool { return replyingTo != nil }
     
     
     init(user: User, tweetID: String, dictionary: [String: Any]) {
@@ -28,6 +31,12 @@ struct Tweet {
         if let timeStamp = dictionary["timestamp"] as? Double {
             self.timeStamp = Date(timeIntervalSince1970: timeStamp)
         }
+        
+        if let replyingTo = dictionary["replyingTo"] as? String {
+            self.replyingTo = replyingTo
+        }
+        
+        
         
     }
     
