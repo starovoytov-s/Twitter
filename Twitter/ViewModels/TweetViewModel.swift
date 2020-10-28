@@ -27,7 +27,7 @@ struct TweetViewModel {
         formatter.maximumUnitCount = 1
         formatter.unitsStyle = .abbreviated
         let now = Date()
-        return formatter.string(from: tweet.timeStamp, to: now) ?? "2m"
+        return formatter.string(from: tweet.timestamp, to: now) ?? "2m"
         
     }
     
@@ -36,7 +36,7 @@ struct TweetViewModel {
         
         let formatter = DateFormatter()
         formatter.dateFormat = "h:mm a ・ MM/dd/yyyy"
-        return formatter.string(from: tweet.timeStamp)
+        return formatter.string(from: tweet.timestamp)
         
     }
     
