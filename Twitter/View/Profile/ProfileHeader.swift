@@ -9,7 +9,7 @@ import UIKit
 
 protocol ProfileHeaderDelegate: class {
     func handleDimissal()
-    func handleProfileFollow(_ header: ProfileHeader)
+    func handleEditProfileFollow(_ header: ProfileHeader)
     func didSelect(filter: ProfileFilterOptions)
 }
 
@@ -196,7 +196,7 @@ class ProfileHeader: UICollectionReusableView {
     }
     
     @objc func handleEditProfileFollow() {
-        delegate?.handleProfileFollow(self)
+        delegate?.handleEditProfileFollow(self)
         
         
     }

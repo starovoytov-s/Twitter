@@ -9,7 +9,7 @@ import UIKit
 
 // MARK: - Properties
 
-class CaptionTextView: UITextView {
+class InputTextView: UITextView {
     let placeholderLabel: UILabel = {
        let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 16)

@@ -85,5 +85,4 @@ struct NotificationViewModel {
         self.user = notification.user
     }
     
-    
 }

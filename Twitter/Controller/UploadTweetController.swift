@@ -55,7 +55,7 @@ class UploadTweetController: UIViewController {
         return label
     }()
     
-    private let captionTextView = CaptionTextView()
+    private let captionTextView = InputTextView()
     
 
     
