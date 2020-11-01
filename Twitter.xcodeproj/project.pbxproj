@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B46E0D9254F094800E63D83 /* EditProfileFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46E0D8254F094800E63D83 /* EditProfileFooter.swift */; };
 		7B4EE35B254A01D9009F37F3 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EE35A254A01D9009F37F3 /* EditProfileViewModel.swift */; };
 		7B4EE35E254A02A9009F37F3 /* EditProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EE35D254A02A9009F37F3 /* EditProfileCell.swift */; };
 		7B58FF38253F0D7600FCBCF2 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58FF37253F0D7600FCBCF2 /* UserCell.swift */; };
@@ -45,7 +46,7 @@
 		7BD55AD42537460D000A6C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD55AD22537460D000A6C96 /* LaunchScreen.storyboard */; };
 		7BD55AE525374931000A6C96 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AE425374931000A6C96 /* MainTabController.swift */; };
 		7BD55AE825374BF5000A6C96 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AE725374BF5000A6C96 /* FeedController.swift */; };
-		7BD55AEB25374C6A000A6C96 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AEA25374C6A000A6C96 /* ExploreController.swift */; };
+		7BD55AEB25374C6A000A6C96 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AEA25374C6A000A6C96 /* SearchController.swift */; };
 		7BD55AEE25374C84000A6C96 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AED25374C84000A6C96 /* NotificationsController.swift */; };
 		7BD55AF125374C93000A6C96 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AF025374C93000A6C96 /* ConversationController.swift */; };
 		7BD55AF425375791000A6C96 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55AF325375791000A6C96 /* Extensions.swift */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		3B4CCB777A657B33B55F2481 /* Pods-Twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.release.xcconfig"; path = "Target Support Files/Pods-Twitter/Pods-Twitter.release.xcconfig"; sourceTree = "<group>"; };
 		49B2AC1E21B51818BCEBF944 /* Pods-Twitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.debug.xcconfig"; path = "Target Support Files/Pods-Twitter/Pods-Twitter.debug.xcconfig"; sourceTree = "<group>"; };
+		7B46E0D8254F094800E63D83 /* EditProfileFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileFooter.swift; sourceTree = "<group>"; };
 		7B4EE35A254A01D9009F37F3 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		7B4EE35D254A02A9009F37F3 /* EditProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileCell.swift; sourceTree = "<group>"; };
 		7B58FF37253F0D7600FCBCF2 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -98,7 +100,7 @@
 		7BD55AD52537460D000A6C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BD55AE425374931000A6C96 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		7BD55AE725374BF5000A6C96 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
-		7BD55AEA25374C6A000A6C96 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		7BD55AEA25374C6A000A6C96 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		7BD55AED25374C84000A6C96 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		7BD55AF025374C93000A6C96 /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
 		7BD55AF325375791000A6C96 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				7BA0876C253DF9B4009049A5 /* ProfileFilterCell.swift */,
 				7BD291642549D97100DF38F4 /* EditProfileHeader.swift */,
 				7B4EE35D254A02A9009F37F3 /* EditProfileCell.swift */,
+				7B46E0D8254F094800E63D83 /* EditProfileFooter.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -216,7 +219,7 @@
 				7B5ECD722538A5AD007A4A77 /* Authentication */,
 				7BD55AE425374931000A6C96 /* MainTabController.swift */,
 				7BD55AE725374BF5000A6C96 /* FeedController.swift */,
-				7BD55AEA25374C6A000A6C96 /* ExploreController.swift */,
+				7BD55AEA25374C6A000A6C96 /* SearchController.swift */,
 				7BD55AED25374C84000A6C96 /* NotificationsController.swift */,
 				7BD55AF025374C93000A6C96 /* ConversationController.swift */,
 				7BB0D677253B64F600E21414 /* UploadTweetController.swift */,
@@ -396,7 +399,7 @@
 				7B5ECD7A2538B049007A4A77 /* Utilities.swift in Sources */,
 				7BD2914F2549D16B00DF38F4 /* EditProfileController.swift in Sources */,
 				7BB02F0E2541D69E00BDB3E8 /* ActionSheetCell.swift in Sources */,
-				7BD55AEB25374C6A000A6C96 /* ExploreController.swift in Sources */,
+				7BD55AEB25374C6A000A6C96 /* SearchController.swift in Sources */,
 				7BAF71E82544C6EB00B5A23A /* NotificationViewModel.swift in Sources */,
 				7BD55AF425375791000A6C96 /* Extensions.swift in Sources */,
 				7B82A2FF25403C2D006A0214 /* TweetController.swift in Sources */,
@@ -421,6 +424,7 @@
 				7BB02F112541EF1600BDB3E8 /* ActionSheetViewModel.swift in Sources */,
 				7BAF71E52544B78400B5A23A /* NotificationCell.swift in Sources */,
 				7B4EE35B254A01D9009F37F3 /* EditProfileViewModel.swift in Sources */,
+				7B46E0D9254F094800E63D83 /* EditProfileFooter.swift in Sources */,
 				7B5ECD772538A665007A4A77 /* RegistrationController.swift in Sources */,
 				7BD55AE825374BF5000A6C96 /* FeedController.swift in Sources */,
 				7BA0876A253DF773009049A5 /* ProfileFilterView.swift in Sources */,
